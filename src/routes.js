@@ -12,5 +12,6 @@ export default (
     <Route path="about" component={AboutPage}/>
     <Route path="courses" component={CoursesPage}/>
     <Route path="course" component={ManageCoursesPage}/>
+    <Route path="course/:id" component={ManageCoursesPage}/>
   </Route>
 );
